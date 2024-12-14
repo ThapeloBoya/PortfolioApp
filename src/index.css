@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Style the cursor dot */
+/* Cursor container (circle with border) */
+.cursor {
+  position: absolute;
+  width: 30px; /* Circle size */
+  height: 30px; /* Circle size */
+  border-radius: 50%;
+  pointer-events: none; /* Prevent the cursor from blocking clicks */
+  transition: transform 0.1s ease, opacity 0.2s ease-in-out;
+  z-index: 9999;
+  transform: scale(1);
+  opacity: 0.8; /* Slightly transparent */
+  border: 2px solid #066d6d; /* Neon border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The dot inside the circle */
+.cursor-dot {
+  width: 5px; /* Dot size */
+  height: 5px; /* Dot size */
+  background-color: #218f8f; /* Neon color */
+  border-radius: 50%; /* Make the dot round */
+}
+
+
+/* Define initial color and transition */
+.text-transition {
+  color: #034C47; /* Initial color */
+  transition: color 0.3s ease;
+}
+
+/* Define hover effect for color change */
+.text-transition:hover {
+  color: #1bffff; /* New color on hover */
+}
+
+.hover\:text-xl:hover {
+  font-size: 1.2rem; /* Example: Enlarging text on hover */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Space between badges */
+}
+
+.skill-badge {
+  background-color: #034C47; /* Background color for badges */
+  color: #1bffff; /* Text color */
+  padding: 5px 10px; /* Space around the text */
+  border-radius: 20px; /* Rounded corners */
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Apply the hover effect to the container */
+.job-container {
+  transition: all 0.3s ease;
+  padding:20px
+}
+
+.job-container:hover {
+  border: 2px solid #152141; /* Grey border */
+  background-color: #172548; /* Lighter background color */
+}
+
+/* Neon effect on the title */
+.job-title {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-size: 14px;
+}
+
+.job-container:hover .job-title {
+  color: #1bffff; /* Neon green color */
+
+}
+
+/* Apply the hover effect to the container */
+.project-container {
+  transition: all 0.3s ease;
+  padding:20px;
+  margin-top:50px;
+}
+.project-container:hover {
+  border: 2px solid #152141; /* Grey border */
+  background-color: #172548; /* Lighter background color */
+}
+
+/* Neon effect on the title */
+.job-title {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-size: 14px;
+}
+
+.project-container:hover .job-title {
+  color: #1bffff; /* Neon green color */
+
+}
+
+.horizontal-line {
+  display: inline-block;
+  width: 2rem; /* Equivalent to w-4 (1rem = 4 * 0.25rem) */
+  height: 2px; /* Equivalent to h-[2px] */
+  background-color: #d3cfd3; /* Equivalent to bg-[#d3cfd3] */
+  margin-right: 0.75rem; /* Equivalent to mr-3 (0.75rem = 3 * 0.25rem) */
+}
+
+.horizontal-line:hover {
+  color: #1bffff; /* Equivalent to hover:text-[#1bffff] */
+}
