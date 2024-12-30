@@ -63,7 +63,7 @@ This will open the project in your browser at `http://localhost:3000`.
    Showcase of my key projects with descriptions, technologies used, and live demo links.
 
 ### 4. **Social Links**
-   Connect with me on **GitHub**, **LinkedIn**, and **Instagram** via links in the footer.
+   Connect with me on **GitHub** and **LinkedIn** via links in the footer.
 
 ## Contributing
 
