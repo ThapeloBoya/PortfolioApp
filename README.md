@@ -3,7 +3,8 @@
 This is my personal portfolio, showcasing my skills, experience, and projects as a front-end developer. The site is built using **React** and styled with **Tailwind CSS**. It also features smooth scrolling, a custom mouse cursor effect, and links to my social media profiles.
 
 ## Live Demo
-[Visit the live portfolio]([https://your-portfolio-link.com)](https://portfolio-8o4gvq9a9-foxsugarprotonmes-projects.vercel.app/)
+
+You can view the live demo of the app here: [Portfolio](https://portfolio-8o4gvq9a9-foxsugarprotonmes-projects.vercel.app/)
 
 ## Features
 
