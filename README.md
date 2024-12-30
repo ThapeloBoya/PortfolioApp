@@ -5,8 +5,6 @@ This is my personal portfolio, showcasing my skills, experience, and projects as
 ## Live Demo
 [Visit the live portfolio](https://your-portfolio-link.com) (replace with your actual link).
 
-![Portfolio App Demo](public/portfolio.png)
-
 ## Features
 
 - **Responsive Design**: Optimized for mobile and desktop views.
@@ -17,7 +15,7 @@ This is my personal portfolio, showcasing my skills, experience, and projects as
 
 ## Screenshots
 
-![Portfolio Screenshot](./screenshots/portfolio.png)
+![Portfolio Screenshot](public/portfolio.png)
 
 ## Installation
 
